@@ -1,0 +1,31 @@
+{
+  "name": "reservation",
+  "version": "1.0.0",
+  "description": "Restaurant Table Reservation System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishal236936/restaurantReservation.git"
+  },
+  "author": "Vishal Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishal236936/restaurantReservation/issues"
+  },
+  "homepage": "https://github.com/vishal236936/restaurantReservation#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "joi": "^17.13.3",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0"
+  }
+}
