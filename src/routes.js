@@ -1,4 +1,5 @@
 const express = require("express");
+
 const {
   reserveTable,
   viewReservation,
@@ -11,7 +12,7 @@ const apiRoutes = express.Router();
 
 apiRoutes.post("/reserve", reserveTable);
 apiRoutes.get("/viewByEmail", viewReservation);
-apiRoutes.get("/viewAllByTime", viewAllReservations);
+apiRoutes.get("/viewAllByTime", viewAllReservations); // view all the reservation by particular Time
 apiRoutes.delete("/cancel", cancelReservation);
 apiRoutes.put("/update", modifyReservation);
 
