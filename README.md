@@ -62,7 +62,7 @@ restaurantReservation/
 │   ├── controllers/
 │   │   └── reservations.js 
 │   ├── services/
-│   │   └── reservationService.sjs
+│   │   └── reservationServices.js
 │   ├── routes.js
 ├── tests/
 │   ├── test.js
