@@ -43,7 +43,7 @@ A simple table reservation system that allows users to reserve, view, modify, an
         - This project uses Jest for testing.
     2. **Run Tests**
        ```bash
-       npm start
+       npm test
        ```
        
      **Test cases include:**
