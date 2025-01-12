@@ -75,8 +75,6 @@ restaurantReservation/
 
 ---
 
-## API Endpoints Descriptions
-
 ## API Endpoints
 
 ### **1. Reserve a Table**
